@@ -1,0 +1,16 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box; /*bordures et marges incluses ds largeur et hauteur*/
+}
+
+html {
+  font-family: sans-serif;
+  line-height: 1.15; /*taille de l'interligne (debase 1) */
+  -webkit-text-size-adjust: 100%; /*taille texte 100% celle dites en css, pas modif par navigateur*/
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /*supprime surbrillance auto de certain navigateur*/
+}
+
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+  display: block; /* fait en sorte que ces éléments soient des blocs*/
+}
