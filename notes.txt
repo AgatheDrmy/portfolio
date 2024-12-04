@@ -1,4 +1,30 @@
-rajouter parcours scholaire
-testimonial (reference)
-la partie javascript dans le footer
 trouver de nouvelles images
+
+je laisse le copyright?
+
+barre e navigation about mal cadré
+
+bouton : - (voir mon travail pas lié) FAIT
+	 - telecharger mon cv rien derriere
+	 - envoyer rien derrière
+
+contenue ds langage informatique, divers outils mal cadré
+
+adresse mail cliquable 
+
+pop up des portfolios
+
+rajouter parcours scholaire
+
+la partie javascript dans le footer
+testimonial (reference) ?
+
+
+
+
+
+
+Fait :
+
+me contacter : obligation de remplir les 3 champs
+	
