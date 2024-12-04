@@ -4,8 +4,7 @@ je laisse le copyright?
 
 barre e navigation about mal cadré
 
-bouton : - (voir mon travail pas lié) FAIT
-	 - telecharger mon cv rien derriere
+bouton : - telecharger mon cv rien derriere
 	 - envoyer rien derrière
 
 contenue ds langage informatique, divers outils mal cadré
@@ -27,4 +26,6 @@ testimonial (reference) ?
 Fait :
 
 me contacter : obligation de remplir les 3 champs
-	
+
+bouton :	
+- voir mon travail pas lié
