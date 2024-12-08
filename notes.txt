@@ -1,11 +1,10 @@
-trouver de nouvelles images
+demander a pier pour les telechargement
 
 je laisse le copyright?
 
-barre e navigation about mal cadré
+trouver de nouvelles images
 
-bouton : - telecharger mon cv rien derriere
-	 - envoyer rien derrière
+barre e navigation about mal cadré
 
 contenue ds langage informatique, divers outils mal cadré
 
@@ -14,6 +13,8 @@ adresse mail cliquable
 pop up des portfolios
 
 rajouter parcours scholaire
+
+bouton : - envoyer rien derrière
 
 la partie javascript dans le footer
 testimonial (reference) ?
@@ -29,3 +30,4 @@ me contacter : obligation de remplir les 3 champs
 
 bouton :	
 - voir mon travail pas lié
+- telecharger mon cv rien derriere
