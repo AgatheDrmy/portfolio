@@ -1,18 +1,18 @@
-CSS introuvable derrière parcours scolaire
+demander a pier pour les telechargement
 
-ou mettre la création des pop up?
-
-
-pop up des portfolios
-
-adresse mail cliquable 
+je laisse le copyright?
 
 trouver de nouvelles images
 
-mal cadré : - barre de nav
-	    - contenu ds langage info et diver outils
+barre e navigation about mal cadré
 
+contenue ds langage informatique, divers outils mal cadré
 
+adresse mail cliquable 
+
+pop up des portfolios
+
+rajouter parcours scholaire
 
 bouton : - envoyer rien derrière
 
@@ -26,9 +26,7 @@ testimonial (reference) ?
 
 Fait :
 
-rajouter parcours scholaire
-
-me contacter : obligation de remplir les 3 champs SUPPR
+me contacter : obligation de remplir les 3 champs
 
 bouton :	
 - voir mon travail pas lié
