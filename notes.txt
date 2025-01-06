@@ -26,6 +26,8 @@ testimonial (reference) ?
 
 Fait :
 
+navbar corrigée
+
 rajouter parcours scholaire
 
 me contacter : obligation de remplir les 3 champs SUPPR

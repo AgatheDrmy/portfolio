@@ -72,6 +72,100 @@ body {
   background-color: #fff;
 }
 
+
+/*rajout*/
+.row_1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.rounded-4 {
+  border-radius: 30px;
+}
+
+.bg-teal {
+  background-color: #e5e3ec;
+}
+
+.title-parcours p{
+  font-weight: 500;
+  font-family: 'Baloo Paaji', cursive;
+  color: #695aa6;
+  page-break-after: avoid;
+  orphans: 3;
+  widows: 3;
+  font-size: 1.75rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.title-parcours#lycee{
+  padding-top: 17px;
+  padding-bottom: 18px;
+}
+.title-parcours#isen{
+  padding-top: 17px;
+  padding-bottom: 18px;
+}
+
+.space p{
+  padding-bottom: 20px;
+}
+
+.space{
+  margin-bottom: 40px;
+}
+
+.linkedin{
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -webkit-flex-basis: 0;
+      -ms-flex-preferred-size: 0;
+          flex-basis: 0;
+}
+
+.linkedin a{
+  padding: 4px 0;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  line-height: 40px;
+  text-align: center;
+  border: 2px solid #695aa6;
+  color: #695aa6;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+
+.linkedin a:hover{
+  background: #695aa6;
+  border-color: #695aa6;
+  color: #fff;
+  text-decoration: none;
+}
+
+.linkedin.ti-email{
+  color: #695aa6;
+  font-size: 20px;
+  font-weight: bold;
+}
+@media (max-width: 767.98px) {
+  .linkedin {
+    margin-top: 15px;
+  }
+}
+
+
+
+
+
 [tabindex="-1"]:focus {
   outline: 0 !important;
 }
@@ -1403,6 +1497,7 @@ pre code {
             flex: 0 0 33.33333%;
     max-width: 33.33333%;
   }
+
   .col-lg-5 {
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 41.66667%;
@@ -10921,6 +11016,7 @@ a.text-dark:hover, a.text-dark:focus {
   h2,
   h3 {
     page-break-after: avoid;
+  }
   }
   @page {
     size: a3;

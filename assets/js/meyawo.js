@@ -37,3 +37,15 @@ $('#nav-toggle').click(function(){
     $('ul.nav').toggleClass('show');
 });
 
+function copy_to_clipboard(clicked_id) {
+    var text = document.getElementById(clicked_id).id;
+    console.log(text);
+    
+    navigator.clipboard.writeText(text).then(function() {
+        /* clipboard successfully set */
+        // on change l'apparence du texte pour montrer qu'il a été copié :
+        document.getElementById(clicked_id).style.color = "grey"; 
+    }, function() {
+        /* clipboard write failed */
+    });
+}
