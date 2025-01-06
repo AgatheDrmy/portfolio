@@ -49,3 +49,13 @@ function copy_to_clipboard(clicked_id) {
         /* clipboard write failed */
     });
 }
+
+function print_popup1() {
+    var popup = document.getElementById("popupcopy1");
+    popup.classList.toggle("show");
+  }
+
+function print_popup2() {
+    var popup = document.getElementById("popupcopy2");
+    popup.classList.toggle("show");
+  }
