@@ -3,7 +3,7 @@
 
 
 <head>
-	<meta charset="utf-8"> <!--encodage pour avoir les éè? ect-->
+	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Start your development with Meyawo landing page.">
     <meta name="author" content="Devcrud">
@@ -12,12 +12,14 @@
 
     <!-- font icons -->
     <link rel="stylesheet" href="../assets/vendor/themify-icons/css/themify-icons.css">
+
     <!-- Bootstrap + Meyawo main styles -->
 	<link rel="stylesheet" href="../assets/css/meyawo.css">
 
     <!-- Js -->
     <script src="../assets/vendor/jquery/jquery-3.4.1.js" defer></script>
     <script src="../assets/js/meyawo.js" defer></script>
+
     <!-- bootstrap 3 affix -->
 	<script src="../assets/vendor/bootstrap/bootstrap.affix.js" defer></script>
 
@@ -319,23 +321,32 @@
             <h6 class="section-title mb-5">Me contacter</h6>
             <div class="row_1">
                 <div class="col-lg-4 p-4 space">
-                    <p id="mynumber">Mon numéro</p>
-                    <div class="linkedin popup" onclick="print_popup1()">
-                        <a class="copy" id="+33 07 67 44 25 08" onclick="copy_to_clipboard(this.id);"><i class="ti-mobile"></i></a>
-                        <span class="popuptext" id="popupcopy1">Texte Copié</span>
+                    <div class="contour">
+                        <h5 id="mynumber">Mon numéro</h5>
+                        <div class="linkedin popup" onclick="print_popup1()">
+                            <a class="copy link" id="+33 07 67 44 25 08" onclick="copy_to_clipboard(this.id);"><i class="ti-mobile"></i></a>
+                            <span class="popuptext" id="popupcopy1">Texte Copié</span>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-4 p-4 space">
-                    <p id="myemail">Mon email</p>
-                    <div class="linkedin popup" onclick="print_popup2()">
-                        <a class="copy" id="agathemaud.dormoy@gmail.com" onclick="copy_to_clipboard(this.id);"><i class="ti-email"></i></a>
-                        <span class="popuptext" id="popupcopy2">Texte Copié</span>
-                    </div>
+                    <div class="contour">
+                        <h5 id="myemail">Mon email</h5>
+                        <div class="linkedin popup" onclick="print_popup2()">
+                            <a class="copy link" id="agathemaud.dormoy@gmail.com" onclick="copy_to_clipboard(this.id);"><i class="ti-email"></i></a>
+                            <span class="popuptext" id="popupcopy2">Texte Copié</span>
+                        </div>
+                        <div >
+                            <a class="link" href="mailto:agathemaud.dormoy@gmail.com"><button class="btn-rounded btn btn-primary">M'envoyer un email</button></a>
+                        </div>
+                    </div>    
                 </div>
                 <div class="col-lg-4 p-4 space">
-                    <p id="mylinkedin">Mon linkedin</p>
-                    <div class="linkedin">
-                        <a href="https://www.linkedin.com/in/agathe-dormoy-180b77330/" target="_blank" class="link"><i class="ti-linkedin"></i></a>
+                    <div class="contour">
+                        <h5 id="mylinkedin">Mon linkedin</h5>
+                        <div class="linkedin">
+                            <a href="https://www.linkedin.com/in/agathe-dormoy-180b77330/" target="_blank" class="link"><i class="ti-linkedin"></i></a>
+                        </div>
                     </div>
                 </div>
             </div>

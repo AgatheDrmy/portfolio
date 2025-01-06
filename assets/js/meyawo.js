@@ -43,8 +43,6 @@ function copy_to_clipboard(clicked_id) {
     
     navigator.clipboard.writeText(text).then(function() {
         /* clipboard successfully set */
-        // on change l'apparence du texte pour montrer qu'il a été copié :
-        document.getElementById(clicked_id).style.color = "grey"; 
     }, function() {
         /* clipboard write failed */
     });

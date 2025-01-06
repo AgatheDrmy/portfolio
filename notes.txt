@@ -1,11 +1,9 @@
-CSS introuvable derrière parcours scolaire
+contact
 
 ou mettre la création des pop up?
 
 
-pop up des portfolios
-
-adresse mail cliquable 
+pop up des portfolios 
 
 trouver de nouvelles images
 
@@ -25,6 +23,10 @@ testimonial (reference) ?
 
 
 Fait :
+
+popup copy
+
+parcours scolaire
 
 navbar corrigée
 

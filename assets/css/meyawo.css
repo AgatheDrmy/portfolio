@@ -108,12 +108,13 @@ body {
   padding-bottom: 18px;
 }
 
-.space p{
+.space h5{
   padding-bottom: 20px;
+  padding-top: 30px
 }
 
 .space{
-  margin-bottom: 40px;
+  margin-bottom: 80px;
 }
 
 .linkedin{
@@ -127,7 +128,6 @@ body {
 }
 
 .linkedin a{
-  padding: 4px 0;
   display: inline-block;
   margin: 0;
   padding: 0;
@@ -140,9 +140,8 @@ body {
   color: #695aa6;
   font-size: 20px;
   font-weight: bold;
-  margin-bottom: 6px;
+  margin-bottom: 30px;
 }
-
 
 .linkedin a:hover{
   background: #695aa6;
@@ -151,11 +150,6 @@ body {
   text-decoration: none;
 }
 
-.linkedin.ti-email{
-  color: #695aa6;
-  font-size: 20px;
-  font-weight: bold;
-}
 @media (max-width: 767.98px) {
   .linkedin {
     margin-top: 15px;
@@ -208,7 +202,6 @@ body {
   animation: fadeIn 1s;
 }
 
-
 /* Add animation (fade in the popup) */
 @-webkit-keyframes fadeIn {
   from {opacity: 0;} 
@@ -220,6 +213,13 @@ body {
   to {opacity:1 ;}
 }
 
+.contour {
+  position: relative;
+  min-height: 230px;
+  border: 1px solid #dee2e6;
+  overflow: hidden;
+  border-radius: 3px;
+}
 
 
 
@@ -324,19 +324,6 @@ a:hover {
   text-decoration: none;
 }
 
-a:not([href]):not([tabindex]) {
-  color: inherit;
-  text-decoration: none;
-}
-
-a:not([href]):not([tabindex]):hover, a:not([href]):not([tabindex]):focus {
-  color: inherit;
-  text-decoration: none;
-}
-
-a:not([href]):not([tabindex]):focus {
-  outline: 0;
-}
 
 pre,
 code,
