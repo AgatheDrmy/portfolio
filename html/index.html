@@ -48,19 +48,9 @@
                 <li class="item">
                     <a class="link" href="#portfolio">Portfolio</a>
                 </li>
-                <!--<li class="item">
-                    <a class="link" href="#testmonial">Testmonial</a>
-                </li>
-                <li class="item">
-                    <a class="link" href="#blog">Blog</a>
-                </li> -->
                 <li class="item">
                     <a class="link" href="#contact">Contact</a>
                 </li>
-                <!--
-                <li class="item ml-md-3">
-                    <a href="components.html" class="btn btn-primary">Components</a>
-                </li>-->
             </ul>
             <a href="javascript:void(0)" id="nav-toggle" class="hamburger hamburger--elastic">
                 <div class="hamburger-box">
@@ -107,7 +97,7 @@
                         ou dystopiques. 
 
                     </p>
-                    <a href="../assets/imgs/CV_Agathe_DORMOY.pdf" target = "blank"><button class="btn-rounded btn btn-outline-primary mt-4">Télécharger mon CV</button></a>
+                    <a href="../assets/pdf/CV_Agathe_DORMOY.pdf" target = "blank"><button class="btn-rounded btn btn-outline-primary mt-4">Télécharger mon CV</button></a>
                     <!--<input type="button" value="Télécharger" onclick="CV_Agathe_DORMOY.pdf"></input>-->
                 </div>              
             </div><!-- end of about wrapper -->
@@ -275,11 +265,11 @@
             <!-- row -->
             <div class="row">
                 <div class="col-md-4">
-                    <a href="#" class="portfolio-card">
+                    <a class="portfolio-card" id="myBtn1">
                         <img src="../assets/imgs/folio-1.jpg" class="portfolio-card-img"> 
                         <span class="portfolio-card-overlay">
                             <span class="portfolio-card-caption">
-                                <h4>Bot_Tommy</h5>
+                                <h4>Bot_Tommy</h4>
                                 <p class="font-weight-normal">Tortue mangeuse de déchets</p>
                             </span>                         
                         </span>  
@@ -287,22 +277,22 @@
                     </a>
                 </div>
                 <div class="col-md-4">
-                    <a href="#" class="portfolio-card">
+                    <a class="portfolio-card" id="myBtn2">
                         <img class="portfolio-card-img" src="../assets/imgs/folio-2.jpg" class="img-responsive rounded">
                         <span class="portfolio-card-overlay">
                             <span class="portfolio-card-caption">
-                                <h4>Saint-Quentin</h5>
+                                <h4>Saint-Quentin</h4>
                                 <p class="font-weight-normal">Etude de la population arborée</p>
                             </span>                         
                         </span>                         
                     </a>
                 </div>
                 <div class="col-md-4">
-                    <a href="#" class="portfolio-card">
+                    <a class="portfolio-card" id="myBtn3">
                         <img class="portfolio-card-img" src="../assets/imgs/folio-3.jpg" class="img-responsive rounded">    
                         <span class="portfolio-card-overlay">
                             <span class="portfolio-card-caption">
-                                <h4>FlowTech</h5>
+                                <h4>FlowTech</h4>
                                 <p class="font-weight-normal">Création d'une lowtech</p>
                             </span>                         
                         </span>                     
@@ -311,8 +301,6 @@
             </div><!-- end of row -->
         </div><!-- end of container -->
     </section> <!-- end of portfolio section -->
-
-
 
     <!-- contact section -->
     <section class="section" id="contact">
@@ -350,11 +338,7 @@
                     </div>
                 </div>
             </div>
-
-            
-
-
-
+        </section>            
 
     <!-- footer -->
     <div class="container">
@@ -364,4 +348,135 @@
     </div> <!-- end of page footer -->
 
 </body>
+
+<!-- The Modal -->
+<div id="myModal1" class="modal-mine">
+
+    <!-- Modal content -->
+    <div class="modal-content-mine">
+        <span class="close-mine1">&times;</span>
+        <div class="modal-int">
+            <div class="text-center">
+                <h3>Bot_Tommy</h3>
+                <h5>La tortue mangeuse de déchets</h5>
+                <br>
+                <img src="../assets/imgs/tortue_mauve.png">
+            </div>
+            <br>
+            <p>Ce projet consiste à implémenter un robot ramasseur de déchets dans une interface graphique à l’aide de la librairie turtle.
+                La tortue se déplace dans un espace en deux dimensions. Son mouvement se fait axe par axe (pas de déplacement en diagonale). 
+                D’autre part, sa liberté de déplacement est limitée (son mouvement ne peut excéder une certaine distance sur chaque axe).
+            </p>
+            <p>La simulation est découpée en tours de collecte. Pour chaque tour, il y a différentes étapes :</p>
+            <ul>
+                <li>La tortue évalue quels déchets elle peut manger en fonction de la distance à laquelle se trouvent ces derniers. </li>
+                <li>Lorsqu’un déchet est à sa portée, la tortue se déplace vers ce déchet et le fait disparaître.</li>
+                <li>Pour chaque déchet présent, un nouveau déchet peut être généré selon une probabilité fixée. Le déchet apparaîtra sur une case adjacente à un déchet original.</li>
+            </ul>
+            <p>La simulation se terminera si :</p>
+            <ul>
+                <li>Tous les déchets sont collectés.</li>
+                <li>Un nombre de tours maximum est atteint.</li>
+                <li>Les déchets sont tous hors de sa portée.</li>
+            </ul>
+            <br>
+            <h4 class="text-center">Démonstration</h4>
+            <div class="text-center">
+                <video controls class="video">
+                    <source src="../assets/videos/projet_bot_tommy.mp4" type="video/mp4" />
+                </video>
+            </div>
+        </div>
+    </div>    
+</div>
+
+<div id="myModal2" class="modal-mine">
+
+    <!-- Modal content -->
+    <div class="modal-content-mine">
+        <span class="close-mine2">&times;</span>
+        <div class="modal-int">
+            <div class="text-center">
+                <br>
+                <h3>Saint-Quentin</h3>
+                <h5>Etude de la population arborée</h5>
+                <br>
+                <img src="../assets/imgs/logo_st_q.png">
+            </div>
+            <br>
+            <p>L’objectif de ce projet est la conception et le développement d'une application dédiée à l'étude approfondie du patrimoine arboré. 
+                Elle permettra donc d'explorer et d'analyser le patrimoine arboré de la ville de Saint-Quentin. Le projet permet une approche pluridisciplinaire 
+                et combine des méthodes de collecte, de traitement et de visualisation de données afin de fournir des données précieuses sur les arbres de la ville. 
+                Lors de ce projet, j’ai principalement travaillé sur l’affichage des cartes et la partie front du projet web.
+            </p>
+            <h5 class="text-center">Big Data</h5> 
+            <p>La partie big data consiste à étudier les données sur le patrimoine arboré de la ville. Pour cela, nous avons récupéré les données d’un fichier CSV 
+                issu du site data.gouv. Nous avons ensuite nettoyé les données (valeurs manquantes, doublons, autres erreurs, ...) pour assurer leur fiabilité. 
+                Nous avions ensuite utilisé du R pour afficher les données sous différents formats (diagrammes, cartes interactives, tableaux) à l’aide de modèles 
+                statistiques pour les étudier.
+            </p>
+            <div class="text-center">
+                <a class="link" href="../assets/pdf/rapport_big_data.pdf" target = "blank"><button class="btn-rounded btn btn-outline-primary mt-4">Télécharger le rapport Big Data</button></a>
+            </div>
+            <br>
+            <br>
+            <h5 class="text-center">IA</h5>
+            <p>Cette partie du projet a pour but la compréhension détaillée des différentes étapes d'un programme d'apprentissage automatique, de la préparation des 
+                données, à l'évaluation des modèles. Il est également question d’étude de l'évaluation des performances des méthodes d'apprentissage automatique, en 
+                choisissant les métriques pertinentes et en interprétant correctement les résultats obtenus.
+                Diverses techniques d'apprentissage automatique sont donc explorées. Il y a notamment le clustering pour l'apprentissage non supervisé et la 
+                classification/régression pour l'apprentissage supervisé. Dans ce contexte, les données sur les arbres sont collectées et modélisées minutieusement, 
+                en mettant l'accent sur la prédiction de l'âge des arbres et la création d'une visualisation cartographique interactive pour classifier les arbres 
+                selon leur taille. De plus, un modèle d'intelligence artificielle est développé pour prédire l'âge des arbres en utilisant diverses caractéristiques, 
+                et un système d'alerte est mis en place pour anticiper les arbres susceptibles d'être déracinés lors de tempêtes.
+            </p>
+            <div class="text-center">
+                <a class="link" href="../assets/pdf/rapport_ia.pdf" target = "blank"><button class="btn-rounded btn btn-outline-primary mt-4">Télécharger le rapport IA</button></a>
+            </div>
+            <br>
+            <br>
+            <h5 class="text-center">WEB</h5>                          
+            <p>Dans la partie WEB, l’objectif était la conception et le développement d’une application de gestion du patrimoine arboré pour la ville de Saint-Quentin. 
+                Il y avait différentes pages à réaliser. Avant le développement de l’application web, il a fallu réaliser la charte graphique puis réaliser la maquette 
+                du site à l'aide de Figma. Tout d’abord, il y avait une page d’accueil
+            </p>
+            <div class="row_">
+                <img src="../assets/imgs/accueil.png">
+            </div>
+            
+            <p>Puis une autre page avec un formulaire pour ajouter un arbre dans la base de données :</p>
+            <div class="row_">
+                <img src="../assets/imgs/formulaire.png">
+            </div>
+            
+            <p>Enfin la dernière page qui permettait la visualisation des arbres sur une carte avec prédiction des clusters sur cette dernière et 
+                affichage de la base de données dans un tableau. Il y a également deux boutons qui envoient sur deux pages différentes. L’un 
+                pour l’affichage de la prédiction de l’âge des arbres et l’autre pour le déracinement des arbres.</p>
+            <img src="../assets/imgs/carte1.png">
+            <img src="../assets/imgs/carte2.png">
+            <img src="../assets/imgs/age.png">
+            <img src="../assets/imgs/deracinement.png">          
+            <p>Ensuite, est venu le développement du site (Front et Back).</p>    
+        </div>
+    </div>
+
+</div>
+
+<div id="myModal3" class="modal-mine">
+
+    <!-- Modal content -->
+    <div class="modal-content-mine">
+        <span class="close-mine3">&times;</span>
+        <div class="modal-int">
+            <div class="text-center">
+                <br>
+                <h3>FlowTech</h3>
+                <h5>Création d'une lowtech</h5>
+            </div>
+            <p>Some text in the Modal..</p>
+        </div>
+    </div>
+
+</div>
+
 </html>
