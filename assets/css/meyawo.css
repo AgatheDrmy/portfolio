@@ -299,7 +299,25 @@ body {
 }
 
 .video{
-  margin-top: 50px
+  margin-top: 50px;
+}
+
+.video2{
+  margin-top: 50px;
+  max-width: 1200px;
+}
+
+.logo_projet{
+  max-width: 140px;
+}
+
+.taille_image{
+  max-width: 500px;
+  padding: 30px;
+}
+.taille_image2{
+  max-width: 300px;
+  padding: 30px;
 }
 
 
@@ -11424,6 +11442,7 @@ p {
 
 .portfolio-card .portfolio-card-img {
   width: 100%;
+  border: 5px double;
 }
 
 .portfolio-card .portfolio-card-overlay {
