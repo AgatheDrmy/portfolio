@@ -1,20 +1,20 @@
-contact
-
-ou mettre la création des pop up?
-
-
-pop up des portfolios 
-
 trouver de nouvelles images
+
+version anglais
+
+la partie javascript dans le footer
+
+clique en dehors des popups les fait disparaitre (barre nav grisé aussi)
+
+popup copié disparition au bon d'un certain temps
+
+contour et image projet?
+
+ranger le code
 
 mal cadré : - barre de nav
 	    - contenu ds langage info et diver outils
 
-
-
-bouton : - envoyer rien derrière
-
-la partie javascript dans le footer
 testimonial (reference) ?
 
 
@@ -23,6 +23,12 @@ testimonial (reference) ?
 
 
 Fait :
+
+correction
+
+pop up des portfolios
+
+contact
 
 popup copy
 
