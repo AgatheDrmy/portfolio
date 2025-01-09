@@ -1,16 +1,15 @@
 trouver de nouvelles images
 
-version anglais
+logo flowtech
 
-la partie javascript dans le footer
+version anglais
 
 clique en dehors des popups les fait disparaitre (barre nav grisé aussi)
 
 popup copié disparition au bon d'un certain temps
 
-contour et image projet?
-
 ranger le code
+la partie javascript dans le footer
 
 mal cadré : - barre de nav
 	    - contenu ds langage info et diver outils
