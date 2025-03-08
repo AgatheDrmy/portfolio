@@ -302,10 +302,6 @@ body {
   margin-top: 50px;
 }
 
-.video2{
-  margin-top: 50px;
-  max-width: 1200px;
-}
 
 .logo_projet{
   max-width: 140px;
@@ -807,9 +803,21 @@ pre code {
   margin-left: auto;
 }
 
+@media (min-width: 360px) {
+  .container {
+    max-width: 345px;
+  }
+  .video {
+    max-width: 100%;
+  }
+}
+
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
+  }
+  .video {
+    max-width: 100%;
   }
 }
 
@@ -817,17 +825,26 @@ pre code {
   .container {
     max-width: 720px;
   }
+  .video {
+    max-width: 100%;
+  }
 }
 
 @media (min-width: 992px) {
   .container {
     max-width: 960px;
   }
+  .video {
+    max-width: 100%;
+  }
 }
 
 @media (min-width: 1200px) {
   .container {
     max-width: 1140px;
+  }
+  .video {
+    max-width: 100%;
   }
 }
 
